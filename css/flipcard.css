@@ -1,0 +1,44 @@
+.maincontainer{
+    width: 100%;
+    height: 1000px;
+    background: none;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  .thecard{
+    position: relative;
+    top:600px;
+    right:90px;
+    left: 710px;
+    width: 490px;
+    height: 490px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+  }
+  
+  .thecard:hover{
+    transform: rotateY(180deg);
+  }
+  
+   .thefront{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 490px;
+    height: 490px;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+  
+  
+  .theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 490px;
+    height: 490px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transform: rotateY(180deg);
+  }

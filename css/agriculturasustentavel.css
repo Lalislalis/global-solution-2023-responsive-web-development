@@ -24,7 +24,6 @@
 
 *{
     margin: 0;
-
 }
 
 .Gothamthin{
@@ -64,7 +63,7 @@
     align-items: center;
 }
 
-#blocoum, #blocodois, #textagro, #imgfao, #imgfao, #textfao, #sessiontwo{
+#blocoum, #blocodois, #textagro, #imgfaodiv, #textfao, #sessiontwo{
     border-radius: 60px;
 }
 
@@ -92,7 +91,7 @@ p{
     align-items: center;
     display: flex;
 }
-#imgfao{
+#imgfaodiv{
     width: 100%;
     height: 300px;
     background-color: rgb(93, 97, 9);
@@ -126,13 +125,58 @@ p{
     display: flex;
     justify-content: center;
     font-family: GothamHTF-Thin;
+    margin-left: 130px;
 
 }
 
 #sessiontwo{
-    width: 1200px;
-    height: 600px;
+    width: 90%;
+    height: 8%;
+    overflow: hidden;
     margin-top: 40px;
     background-color: rgb(0, 234, 255);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
     
+}
+
+#mainbanneragricultura{
+    width: 100%;
+    height: 8%;
+    overflow: hidden;
+}
+
+#imgagro{
+    width: 100%;
+    height: 100%;
+}
+
+#ancora{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+#iconarrow{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    border-radius: 10000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+#imgfao{
+    height: 100%;
+    width: 100%;
+}
+
+#napraticimg{
+    width: 100%;
+    height: 100%;
 }

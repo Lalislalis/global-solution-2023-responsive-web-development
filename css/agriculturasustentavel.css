@@ -1,53 +1,8 @@
-*{
-    margin: 0;
-    scroll-behavior: smooth;
-
-}
-
-#menu{
-    background-color: #000000;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-}
-
-a{
-    text-decoration: none;
-    color: #ffff;
-}
-
-a:hover{
-    color: #8BB02F;
-}
-
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-
-li{
-    margin: 15px;
-}
-
-#logo{
-    width: 80px;
-    height: 60px;
-    background-color: #8BB02F;
-    margin-left: 30px;
-}
-#divmenu{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    
-}
 
 .verdetexto{
     color: #8BB02F;
 }
+/* */
 
 #container{
     width: 100%;
@@ -56,20 +11,22 @@ li{
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    background-color: #831478;
 }
 
 #sessionone{
-    width: 80%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    background-color: #564c65;
 }
 
-#blocoum, #blocodois, #imgfaodiv, #textfao, #sessiontwo{
-    border-radius: 60px;
+
+#blocoum, #imgfaodiv, #textfao, #sessiontwo,.blocotextoverde {
+    border-radius: 50px;
 }
 
 #blocoum{
@@ -78,6 +35,7 @@ li{
     flex-direction: column;
     display: flex;
     align-items: center;
+    background-color: #5acf0b;
 
 }
 
@@ -95,6 +53,7 @@ p{
     width: 100%;
     align-items: center;
     display: flex;
+    background-color: #ffe600;
 }
 #imgfaodiv{
     width: 100%;
@@ -106,11 +65,11 @@ p{
     display: flex;
 }
 #blocodois{
+    margin: 30px;
     width: 40%;
     height: 60%;
     background-color: rgb(0, 0, 0);
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
     display: flex;
 }
 
@@ -132,23 +91,13 @@ p{
 
 
 
-#mainbanneragricultura{
-    width: 100%;
-    height: 8%;
-    overflow: hidden;
-}
-
-#imgagro{
-    width: 100%;
-    height: 100%;
-}
-
 #ancora{
     width: 100%;
     height: 100px;
     justify-content: center;
     display: flex;
     margin-top: 30px;
+    background-color: #ff0000;
 }
 
 #iconarrow{
@@ -187,15 +136,21 @@ p{
 #blocotres{
     width: 100%;
     height: 100%;
-    background-color: #602fb0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-around;
+    background-color: #1cd864;
 }
 
 .blocotextoverde{
-    width: 100px;
-    height: 100px;
-    background-color: #42b02f;
+    margin: 30px;
+    width: 500px;
+    height: 50%;
+    background-color: #8BB02Fff;
+    align-items: center;
+    display: flex;
+}
+
+.ptextsagri{
+    margin: 50px;
 }

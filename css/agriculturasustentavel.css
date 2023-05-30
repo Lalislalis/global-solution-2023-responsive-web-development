@@ -2,7 +2,6 @@
 .verdetexto{
     color: #8BB02F;
 }
-/* */
 
 #container{
     width: 100%;
@@ -10,127 +9,44 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    background-color: #831478;
+}
+
+.textossessionone{
+    margin: 60px;
 }
 
 #sessionone{
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #564c65;
 }
 
-
-#blocoum, #imgfaodiv, #textfao, #sessiontwo,.blocotextoverde {
-    border-radius: 50px;
-}
-
-#blocoum{
+#blocoum , #blocodois{
     width: 50%;
-    height: 100%;
-    flex-direction: column;
+    height: 500px;
     display: flex;
     align-items: center;
-    background-color: #5acf0b;
-
 }
 
-p{
-    font-size: 2em;
-}
 
-#textone{
-    color: white;
-    margin: 100px;
-}
-
-#textagro{
-    width: 90%;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    background-color: #ffe600;
-}
-#imgfaodiv{
-    width: 100%;
-    height: 15%px;
-    background-color: rgb(93, 97, 9);
-    margin-top: 15px;
-    overflow: hidden;
-    justify-content: center;
-    display: flex;
-}
 #blocodois{
-    margin: 30px;
-    width: 40%;
-    height: 60%;
     background-color: rgb(0, 0, 0);
-    justify-content: center;
-    display: flex;
-}
-
-#textfao{
-    width: 80%;
-    height: 80%;
-    margin: 50px;
-    background-color: aliceblue;
-}
-
-#logofao{
-    width: 130px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    background-color: #602fb0;
-
-}
-
-
-
-#ancora{
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    background-color: #ff0000;
-}
-
-#iconarrow{
-    width: 100px;
-    height: 100px;
-    background-color: #000000;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-
-#imgfao{
-    height: 100%;
-    width: 100%;
-}
-
-#napraticimg{
-    width: 100%;
-    height: 100%;
 }
 
 #sessiontwo{
-    width: 95%;
-    height: 100%;
-    overflow: hidden;
+    width: 100%;
+    height: 500px;
     margin-top: 40px;
-    background-color: rgb(0, 234, 255);
     overflow: hidden;
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
+}
+
+
+p{
+    font-size: 4vh;
 }
 
 #blocotres{
@@ -139,18 +55,152 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #1cd864;
 }
 
 .blocotextoverde{
-    margin: 30px;
+    text-align: center;
+    border-radius: 70px;
+    margin: 50px;
     width: 500px;
-    height: 50%;
-    background-color: #8BB02Fff;
+    height: 500px;
+    background-color: #8BB02F;
     align-items: center;
     display: flex;
 }
 
 .ptextsagri{
-    margin: 50px;
+    margin: 30px;
+}
+
+@media(max-width:480px){
+
+    #sessionone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #blocodois{
+        background-color: rgb(226, 39, 39);
+    }
+    
+    #blocotres{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        background-color: #1cd864;
+    }
+    
+    .blocotextoverde{
+        border-radius: 70px;
+        margin: 50px;
+        width: 400px;
+        height: 600px;
+        align-items: center;
+        display: flex;
+    }
+
+
+}
+
+@media(min-width: 481px) and (max-width:768px){
+
+    #sessionone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #blocodois{
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #blocotres{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .blocotextoverde{
+        border-radius: 70px;
+        margin: 50px;
+        width: 400px;
+        height: 600px;
+        background-color: #4c076e;
+        align-items: center;
+        display: flex;
+    
+}
+
+}
+
+@media(min-width: 769px) and (max-width:1279px){
+
+    #sessionone{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #blocodois{
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #blocotres{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .blocotextoverde{
+        border-radius: 70px;
+        margin: 50px;
+        width: 400px;
+        height: 600px;
+        min-height: 900px;
+        max-height: 800px;
+        background-color: #8BB02F;
+        align-items: center;
+        display: flex;
+    
+}
+
+
 }

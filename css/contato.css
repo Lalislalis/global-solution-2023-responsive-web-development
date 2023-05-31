@@ -1,22 +1,27 @@
 #forms{
-    margin-top: 100px;
     width: 700px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
 }
 
+#textocontato{
+    background-color: #8BB02F;
+    width: 500px;
+    height: 500px;
+}
 
 #container{
+    margin-top: 50px;
+
     display: flex;
     justify-content: center;
-    align-items: center;
+
     flex-direction: row;
     width: 100%;
-    height: 100%px;
+    height: 100%;
 }
 
 form{
@@ -29,7 +34,7 @@ label{
     margin-bottom: 5px;
 }
 
-input, textarea, selection{
+input, textarea{
     border: solid 1px;
     border-radius: 10px;
     border-color: rgb(176, 176, 176);
@@ -38,4 +43,35 @@ input, textarea, selection{
 #buttom{
     width: 100px;
     background-color: #8BB02F;
+}
+
+@media(max-width:480px){
+    #container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+
+    #forms{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #textocontato{
+        background-color: #8BB02F;
+        width: 100%;
+        height: 500px;
+    }
+
+    form{
+        width: 80%;
+    }
+    
 }

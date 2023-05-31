@@ -1,0 +1,146 @@
+.blocopreto{
+    margin: 50px;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    border-radius: 70px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.descricaoequipe{
+    color: aliceblue;
+}
+
+.fotoequipe{
+    height: 240px;
+    width: 170px;
+    border-radius: 30px;
+    background-color: aqua;
+    margin: 50px;
+
+}
+
+#blocotres{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 18, 101);
+    width: 100%;
+    height: 100%;
+}
+
+.equipeum{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+@media(max-width:480px){
+    .blocopreto{
+        margin: 30px;
+        width: 80%;
+        height: 400px;
+        background-color: black;
+        border-radius: 70px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .fotoequipe{
+        height: 240px;
+        width: 200px;
+        border-radius: 30px;
+        background-color: aqua;
+        margin: 50px;
+    
+    }
+    
+    #blocotres{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(38, 18, 101);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .equipeum{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(47, 220, 20);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+    }
+
+}
+@media(min-width: 481px) and (max-width:768px){
+    .blocopreto{
+        margin: 30px;
+        width: 80%;
+        height: 400px;
+        background-color: black;
+        border-radius: 70px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .fotoequipe{
+        height: 240px;
+        width: 200px;
+        border-radius: 30px;
+        background-color: aqua;
+        margin: 50px;
+    
+    }
+    
+    #blocotres{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(38, 18, 101);
+        width: 100%;
+        height: 100%;
+    }
+    
+    .equipeum{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(47, 220, 20);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: blueviolet;
+    }
+
+}
+@media(min-width: 769px) and (max-width:1279px){
+
+}

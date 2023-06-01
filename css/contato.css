@@ -15,7 +15,6 @@
 
 #container{
     margin-top: 50px;
-
     display: flex;
     justify-content: center;
 
@@ -46,6 +45,39 @@ input, textarea{
 }
 
 @media(max-width:480px){
+    #container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100%;
+    }
+
+    #forms{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #textocontato{
+        background-color: #8BB02F;
+        width: 100%;
+        height: 500px;
+    }
+
+    form{
+        width: 80%;
+    }
+    
+
+}
+
+@media(min-width: 481px) and (max-width:768px){
+        
     #container{
         margin-top: 50px;
         display: flex;

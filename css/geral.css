@@ -14,7 +14,6 @@
     max-height: 300px;
     display: flex;
     flex-direction: row;
-    position: fixed;
     align-items: center;
     justify-content: space-around;
 }
@@ -117,7 +116,7 @@ li{
         width: 100%;
         max-height: 400px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         position: relative;
     }
@@ -136,7 +135,29 @@ li{
     ul{
         list-style-type: none;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
+
+}
+
+
+@media (min-width:1280px){
+    #menu{
+        background-color: #000000;
+        width: 100%;
+        max-height: 400px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        position: relative;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+
+    
 
 }

@@ -1,0 +1,216 @@
+#container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.textossessionone{
+    margin: 60px;
+}
+
+.textossessiononewhite{
+    color: #ffff;
+    margin: 60px;
+}
+
+#sessionone{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#sessiontwo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+
+#blocoum , #blocodois{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#blocoum{
+    width: 100%;
+    height: 50%;
+}
+
+#blocodois{
+    background-color: #000000;
+    width: 100%;
+    height: 50%;
+}
+
+@media(max-width:480px){
+
+    #container{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textossessionone{
+        margin: 60px;
+    
+    }
+    
+    .textossessiononewhite{
+        color: #ffff;
+        margin: 60px;
+    }
+    
+    #sessionone{
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #sessiontwo{
+        width: 100%;
+        height: 130vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000000;
+    }
+    
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #blocoum{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #blocodois{
+        background-color: #000000;
+    }
+
+
+}
+
+@media(min-width: 481px) and (max-width:768px){
+
+    #container{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textossessionone{
+        margin: 60px;
+        margin: 50px;
+    
+    }
+    
+    .textossessiononewhite{
+        color: #ffff;
+        margin: 60px;
+    }
+    
+    #sessionone{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #sessiontwo{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000000;
+    }
+    
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    #blocoum{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #blocodois{
+        background-color: #000000;
+    }
+
+}
+
+@media(min-width: 769px) and (max-width:1279px){
+
+    #container{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .textossessionone{
+        margin: 60px;
+    }
+    
+    .textossessiononewhite{
+        color: #ffff;
+        margin: 60px;
+    }
+    
+    #sessionone{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    #sessiontwo{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #000000;
+    }
+    
+    #blocoum , #blocodois{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    #blocodois{
+        background-color: #000000;
+    }
+    
+}
+
+
+

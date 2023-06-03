@@ -1,7 +1,6 @@
 *{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5vh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
@@ -16,6 +15,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+#h1div{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 9vw;
+    color: rgb(255, 242, 0);
+    margin-top: 100px;
 }
 
 a{
@@ -50,6 +63,20 @@ li{
 }
 
 @media(max-width:480px){
+
+    h1{
+        text-align: center;
+        font-size: 9vw;
+        color: rgb(255, 242, 0);
+        margin-top: 30px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffff;
+    }
+
+
     #menu{
         background-color: #000000;
         width: 100%;
@@ -82,6 +109,18 @@ li{
 
 @media(min-width: 481px) and (max-width:768px){
 
+    h1{
+        text-align: center;
+        font-size: 9vw;
+        color: rgb(255, 242, 0);
+        margin-top: px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffff;
+    }
+
     #menu{
         background-color: #000000;
         width: 100%;
@@ -110,6 +149,18 @@ li{
 }
 
 @media(min-width: 769px) and (max-width:1279px){
+
+    h1{
+        text-align: center;
+        font-size: 9vw;
+        color: rgb(255, 242, 0);
+        margin-top: 100px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffff;
+    }
 
     #menu{
         background-color: #000000;
@@ -142,6 +193,19 @@ li{
 
 
 @media (min-width:1280px){
+
+    h1{
+        text-align: center;
+        font-size: 9vw;
+        color: rgb(255, 242, 0);
+        margin-top: 100px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #ffff;
+    }
+
     #menu{
         background-color: #000000;
         width: 100%;

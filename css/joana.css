@@ -1,0 +1,83 @@
+#logojoana{
+    width: 50vw;
+    height: 50vw;
+    margin: 100px;
+}
+
+.textossessiononelong{
+    margin: 60px;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#sessionone{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#blocodois, #blocoum{
+    width: 50%;
+    height: 100%;
+    
+}
+
+@media(max-width:480px){
+    #container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #sessionone{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #blocodois, #blocoum{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
+
+@media(min-width: 481px) and (max-width:768px){
+    #container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #sessionone{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    #blocodois, #blocoum{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
+
+@media(min-width: 769px) and (max-width:1279px){
+
+}
+
+@media (min-width:1280px){
+
+}

@@ -1,3 +1,4 @@
+
 #forms{
     width: 700px;
     height: 100%;
@@ -10,11 +11,12 @@
 #textocontato{
     background-color: #8BB02F;
     width: 500px;
-    height: 500px;
+    height: 450px;
+
 }
 
 #container{
-    margin-top: 50px;
+    justify-content: center;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -106,3 +108,18 @@ input, textarea{
     }
     
 }
+
+@media(min-width: 769px) and (max-width:1279px){
+    #container{
+        padding-top: 50px;
+    }
+}
+
+@media (min-width:1280px){
+    #container{
+        padding-top: 50px;
+    }
+}
+
+
+

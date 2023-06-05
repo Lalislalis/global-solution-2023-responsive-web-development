@@ -13,12 +13,29 @@
     height: 100%;
 }
 
+#textojoanas{
+    color: #fff;
+}
+
 #sessionone{
     height: 100%;
     width: 100%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+}
+
+iframe{
+    margin: 50px;
+}
+
+#sessiotwo{
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
 
 }
 

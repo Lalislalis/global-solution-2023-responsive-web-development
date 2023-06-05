@@ -5,6 +5,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+
+footer{
+    display: flex;
+    background-color: #393939;
+    max-width: 100%;
+    min-height: 30px;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+.divfooter{
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
 .h2titles{
     font-weight: bold;
     margin: 30px;

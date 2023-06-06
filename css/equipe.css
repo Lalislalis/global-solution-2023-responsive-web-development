@@ -14,7 +14,15 @@
     color: aliceblue;
 }
 
+#imgequipe{
+    height: 100%;
+    width: 100%;
+}
+
 .fotoequipe{
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
     height: 240px;
     min-height: 300px;
     width: 170px;

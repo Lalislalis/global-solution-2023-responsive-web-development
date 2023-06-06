@@ -56,6 +56,11 @@
 
 @media(max-width:480px){
 
+    #imgequipe{
+        height: 100%;
+        width: 100%;
+    }
+
     .descricaoequipe{
         margin-bottom: 50px;
         width: 200px;
@@ -80,9 +85,9 @@
     
     .fotoequipe{
         height: 240px;
-        width: 200px;
+        width: 100px;
         margin: 10px;
-        min-width: 300px;
+        min-width: 190px;
         background-color: rgb(143, 182, 106);
         border-radius: 30px;
         margin: 50px;
@@ -132,9 +137,13 @@
     
     .fotoequipe{
         height: 240px;
-        width: 300px;
+        width: 100px;
+        margin: 10px;
+        min-width: 190px;
+        background-color: rgb(143, 182, 106);
         border-radius: 30px;
         margin: 50px;
+                                                                                                                     
     }
     
     #blocotres{

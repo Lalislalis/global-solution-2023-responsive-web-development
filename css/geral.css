@@ -91,6 +91,17 @@ li{
 
 @media(max-width:480px){
 
+    iframe{
+        width: 350px;
+        height: 500px;
+    }
+
+    #blocoum{
+    display: flex;
+    flex-direction: column;
+    }
+    
+
     #menu{
 
         height: 400px;
